@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exim Freight Logistics International</title>
+	<link rel="icon" href="images/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a>
+				    <li><a href="about.html">About Us</a>
+					<li><a href="services.html">Our Services</a>
+					<li><a href="contact.html">Contact Us</a>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+		<div class="text-box">
+			<h1>Welcome To Exim Freight Logisitics International</h1>
+			<p>We Connect The World Here</p>
+			<a href="about.html" class="hero-btn">Click Here To Know More About Us</a>
+		</div>
+	</section>
+
+
+<!--------- Our Services -------->
+
+<section class="our-services">
+	<h1>Services That We Offer</h1>
+	<p>Click In Text To Know More</p>
+
+	<div class="row">
+		<div class="service-col">
+			<img src="Images/air.jpg">
+			<div class="layer">
+				<a href="services.html"><h3>Air Freight</h3></a>
+			</div>
+		</div>
+
+		<div class="service-col">
+			<img  src="Images/sea.jpg">
+			<div class="layer">
+				<a href="services.html"><h3>Sea Freight</h3></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--------- Footer ------->
+
+
+<section class="footer">
+	
+   		<div class="row">
+
+			<div class="contactus">
+				<h4 style="color: white; font-size: 23px;">Contact Us</h4>
+				<p style="font-size: 15px;">Email Address: <a href="" style="color: cyan;">info@eximfreightlogistics.com</a>  <br> Telephone Number: 01310332710</p>
+			</div>
+
+			<div class="contactus">
+				<h4 style="color: white; font-size: 23px;">Office Address</h4>
+				<p style="font-size: 15px;">Office Address: House-03, Sector-13, Road-19, Uttara,Dhaka-1230</p></p>
+			</div>
+
+			<div class="contactus">
+				<h4 style="color: white; font-size: 23px;">Social Media Links</h4>
+				<p>Find Us On Social Media</p>
+				<div class="icons">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-instagram"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+
+        </div>
+        <p> <i class="fa fa-copyright"> 2022 Exim Freight Logistics International. All Rights Reserved.</i><br> Made by Ashraf.</p>
+</section>        
+
+
+
+
+
+
+
+
+
+<!--------- JavaScript For Toggle Menu ------->
+
+<script type="text/javascript">
+	var navLinks = document.getElementById("navLinks")
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+
+</body>
+</html>
